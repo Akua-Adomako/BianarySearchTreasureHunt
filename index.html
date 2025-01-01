@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Binary Search Treasure Hunt</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🏴‍☠️ Binary Search Treasure Hunt</h1>
+    <p>Find the treasure hidden in one of the boxes using binary search logic!</p>
+
+    <div id="visualization">
+      <!-- Treasure boxes will be displayed here -->
+    </div>
+
+    <div class="controls">
+      <label for="midInput">Your guess (index):</label>
+      <input type="number" id="midInput" min="0" placeholder="Enter index">
+      <button id="guessButton">Make a Guess</button>
+    </div>
+
+    <div id="hint"></div>
+    <div id="score">Attempts: 0</div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
